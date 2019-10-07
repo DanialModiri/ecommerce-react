@@ -1,0 +1,20 @@
+.sidemenu {
+    width: 24%;
+    min-height: 470px;
+}
+
+.btn-price-range {
+    padding: 4px;
+    background-color: #aeaeae;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    margin-top: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: .2s ease-in;
+}
+
+.btn-price-range:hover {
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+}

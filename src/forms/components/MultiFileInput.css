@@ -1,0 +1,49 @@
+.multi-file-input {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.multi-file-input .preview {
+    display: flex;
+}
+
+.multi-file-input input {
+    display: none;
+}
+
+.multi-file-input label {
+    padding: 24px;
+    border-radius: 8px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px dashed rgb(119, 119, 119);
+    width: fit-content;
+    color: #7c7c7c;
+
+}
+
+.multi-file-input label:hover{
+    color: #2b2b2b;
+}
+
+.multi-file-input label:hover .cam-icon {
+    color: #2b2b2b;
+}
+
+
+.multi-file-input p {
+    margin-bottom: 8px;
+}
+
+.multi-file-input .cam-icon {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    color: #8a8a8a;
+    position: relative;
+}
+
+.multi-file-input .text {
+    top: 4px;
+    font-size: 12px;
+}

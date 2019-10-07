@@ -1,0 +1,21 @@
+.breadcumb {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    direction: rtl;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.breadcumb li {
+    display: block;
+}
+
+.breadcumb li a {
+    padding: 0 8px;
+}
+
+.breadcumb li:not(:first-child)::before {
+    content: '/';
+}

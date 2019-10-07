@@ -1,0 +1,40 @@
+.slider {
+    width: 450px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.slider-2 {
+    width: 450px;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 16px;
+}
+
+
+
+.pagination-slider {
+    padding: 0;
+    margin: 0;
+    display: flex !important;
+    list-style: none;
+    top: -35px;
+    right: 0;
+    position: absolute;
+}
+
+.pagination-slider li {
+    padding: 5px;
+}
+
+.pagination-slider li button {
+    border: 0;
+    background-color: transparent;
+   cursor: pointer;
+   outline: none;
+   transition: .2s;
+}
+
+.pagination-slider .slick-active button {
+    border-bottom: 3px solid rgb(0, 105, 204);
+}
